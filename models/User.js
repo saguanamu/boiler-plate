@@ -8,7 +8,7 @@ const userSchema = mongoose.Schema({
     email: {
         type: String,
         trim: true,
-        unique: 5
+        unique: 1
     },
     lastname: {
         type: String,
